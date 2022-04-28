@@ -28,7 +28,7 @@ mco_ex <- future_lapply(1:4, slow_square)
 toc(log = TRUE)
 
 # check they are identical
-identical(seq_ex, mse_ex)
-identical(seq_ex, mco_ex)
-identical(mco_ex, mse_ex)
+stopifnot('seq_ex != mse_ex' = identical(seq_ex, mse_ex))
+stopifnot('seq_ex != mco_ex' = identical(seq_ex, mco_ex))
+stopifnot('mco_ex != mse_ex' = identical(mco_ex, mse_ex))
 
