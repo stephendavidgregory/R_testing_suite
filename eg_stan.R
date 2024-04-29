@@ -13,3 +13,4 @@ fit <- mod$sample(
   refresh = 500 # print update every 500 iters
 )
 print(fit)
+
