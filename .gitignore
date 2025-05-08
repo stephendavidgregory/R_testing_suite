@@ -4,3 +4,7 @@
 .Ruserdata
 
 *.docx
+
+*.so
+*.dll
+*.o
