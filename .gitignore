@@ -3,6 +3,8 @@
 .RData
 .Ruserdata
 
+working/
+
 *.docx
 
 *.so

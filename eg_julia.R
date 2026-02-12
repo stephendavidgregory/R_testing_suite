@@ -1,3 +1,4 @@
+# ensure Julia has packages "Suppressor" and "RCall" installed
 library(JuliaCall)
 
 julia <- julia_setup()
